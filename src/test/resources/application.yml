@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: ${DB_URL}
+    username: ${DB_USER}
+    password: ${DB_PWD}
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    database-platform: org.hibernate.dialect.MySQLDialect
+#  kafka:
+#    bootstrap-servers: localhost:9092
